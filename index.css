@@ -14,11 +14,14 @@ height: 80px;
 a{
     text-decoration: none;
     margin: 20px;
+    color: #ff4d01;
 }
 
 #nav{
     margin-left: 50%;
 }
+
+
 
 #name{
     margin-right: 10%;
@@ -34,21 +37,26 @@ a{
 
 #cont1{
     margin-right: 100px;
-    width: 60vh;
+    width: 70vh;
 }
 
 #cont1 h3{
-    font-size: 50px;
+    font-size: 35px;
+    
 
 }
 
 #cont1 p{
     font-size: 25px;
+    text-align:;
+    
 }
 
 #cont1 button{
     font-size: 20px;
     padding:10px 10px ;
+    background-color: #ff4d01;
+    border: none;
 }
 
 .cont img{
@@ -62,8 +70,21 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
+#heading{
+    margin-top: 70px;
+    
+}
+
+#para p{
+    margin-top: 30px;
+    background-color: #ff4d01;
+    margin: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
 
 .tech{
     display: flex;
@@ -93,6 +114,27 @@ a{
     flex-direction: column;
     justify-content: center;
     place-items: center;
+    padding: 0px;
+    gap: 60px;
+    
+
+
+    /* Body */
+
+/* Auto layout */
+/* display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 60px;
+
+position: absolute;
+width: 1440px;
+height: 2402px;
+left: -10px;
+top: 835px; */
+
+
 }
 
 #image{
@@ -130,8 +172,35 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: hotpink;
+    background-color: #ff4d01;
+    height: 10vh;
+    left: 0px; 
 }
+
+input{
+    border: 1px solid white;
+    background-color: #ff4d01;
+    padding: 5px;
+    top: 0px;
+    bottom: 0;
+    margin-bottom: 25px;
+}
+
+#eml button{
+    background-color: #ff4d01;
+    color: white;
+    padding:5px ;
+    border: 2px solid white;
+}
+
+/* Footer
+
+position: absolute;
+width: 1440px;
+height: 360px;
+left: 0px;
+bottom: 0px; */
+
 
 footer{
     display: flex;
