@@ -6,7 +6,7 @@ body{
 display: flex;
 justify-content: space-between;
 align-items: center;
-width: 1440px;
+width: 100%;
 height: 80px;
 
 }
@@ -14,18 +14,38 @@ height: 80px;
 a{
     text-decoration: none;
     margin: 20px;
-    color: #ff4d01;
+    color: black;
 }
 
+/* #nav a{
+    color: black;
+} */
+
+
+#changecolor{
+    color:#ff4d01;
+}
+
+
+
 #nav{
-    margin-left: 50%;
+    margin-right:40px ;
+    margin-top: 20px;
+    
 }
 
 
 
 #name{
-    margin-right: 10%;
+    /* margin-right: 10%; */
+    margin-left: 40px;
+    /* width: 70px;
+    height: 70px; */
+    margin-top: 20px;
+
 }
+
+
 
 
 .cont{
@@ -33,22 +53,25 @@ a{
     justify-content: center;
     align-items: center;
     height: 90vh;
+    background:linear-gradient(rgba(0,0,10,0.7),rgba(0,0,10,0.7)), url("./pictures/ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 #cont1{
-    margin-right: 100px;
+    margin-right: 10px;
     width: 70vh;
 }
 
 #cont1 h3{
-    font-size: 35px;
+    font-size: 25px;
     
 
 }
 
 #cont1 p{
-    font-size: 25px;
-    text-align:;
+    font-size: 15px;
+    
     
 }
 
@@ -60,9 +83,11 @@ a{
 }
 
 .cont img{
-    margin-left: 100px;
+    margin-left: 10px;
     width: 600px;
-    height: 600px;
+    height: 540px;
+    bottom: 0;
+    position:absolute;
 }
 
 
@@ -119,21 +144,6 @@ a{
     
 
 
-    /* Body */
-
-/* Auto layout */
-/* display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 60px;
-
-position: absolute;
-width: 1440px;
-height: 2402px;
-left: -10px;
-top: 835px; */
-
 
 }
 
@@ -173,12 +183,12 @@ button{
     justify-content: center;
     align-items: center;
     background-color: #ff4d01;
-    height: 10vh;
+    height: 20vh;
     left: 0px; 
 }
 
 input{
-    border: 1px solid white;
+    border: 1px solid black;
     background-color: #ff4d01;
     padding: 5px;
     top: 0px;
@@ -190,7 +200,7 @@ input{
     background-color: #ff4d01;
     color: white;
     padding:5px ;
-    border: 2px solid white;
+    border: 2px solid black;
 }
 
 /* Footer
@@ -208,7 +218,12 @@ footer{
     align-items: center;
     background-color: black;
     color: white;
+    background-size: cover;
 
+}
+
+#foot a{
+    color: #ff4d01;
 }
 
 
