@@ -1,0 +1,311 @@
+body{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-color: #282b32;
+    background-image: linear-gradient rgba(40,43,50,25);
+    
+}
+
+/* .container{
+background-color: aliceblue;
+} */
+
+
+.navbar{
+    display: flex;  
+    align-items: center; 
+    width: 100%;
+    padding: 20px;
+    
+    
+    
+    
+}
+
+a{
+    text-decoration: none;
+     padding: 10px;
+    /* margin: 30px; */
+    /* margin-right: 80px; */
+    margin-bottom:50px ;
+    align-items: center;
+    
+    
+}
+
+.nav a{
+    
+    color: #FEFFFB;
+    /* margin-right:50px; */
+    
+    
+}
+
+
+#name{
+    
+    margin-left: 10px; 
+    color: #FEFFFB;  
+}
+
+#links{
+    margin-left: 10px;
+    /* display: flex;
+    flex-direction: row; */
+    
+}
+
+/* .navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+height: 80px;
+
+} */
+
+/* .nav a{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+    cursor: pointer;
+} */
+
+
+
+/* #changecolor{
+    color:#ff4d01;
+} */
+
+
+
+/* .nav{
+    margin-right:40px ;
+    margin-top: 20px;
+    
+} */
+
+
+
+
+
+
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    width: 120%;
+    background-color: #2E313A;
+    /* background-color: #181818; */
+    /* background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%); */
+    /* box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    width: 100%; */
+    /* background:linear-gradient(rgba(0,0,255,0.1),rgba(0,0,255,0.1)), url("./Media/ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;  */
+}
+
+#cont1{
+    margin-right: 10px;
+    width: 50vw;
+}
+
+#cont1 h3{
+    font-size: 40px;
+    color:#FEFFFB;
+    width: 150%;
+    
+
+}
+
+#cont1 p{
+    font-size: 30px;
+    color: #FEFFFB;
+    text-align: justify;
+    
+    
+}
+
+#cont1 button{
+    color:#282b32;
+    font-size: 20px;
+    padding:10px 10px ;
+    background-color: #FEFFFB;
+    background-image: linear-gradient rgba(40,43,50,25);
+    border: none;
+}
+
+.cont img{
+    margin-left: 10px;
+    width: 600px;
+    height: 540px;
+    margin-bottom: 100px;
+    position:inherit;
+}
+
+/* #cont2{
+    border: 1px solid white;
+} */
+
+
+#para{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#heading{
+    margin-top: 70px;
+    
+}
+
+#para a{
+    
+    margin-top: 30px;
+    background-color: #282b32;
+    background-image: linear-gradient rgba(40,43,50,25);
+    margin: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+#wrk{
+    color: #FEFFFB;
+}
+
+.tech{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    
+}
+
+#skile{
+    display: flex;
+}
+
+#skile h3{
+    margin: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    color: #FEFFFB;
+}
+
+#skile li{
+   
+    list-style: none;
+    color: #282b32;
+
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    padding: 0px;
+    gap: 60px;
+    
+
+
+
+}
+
+#image{
+    position: relative;
+}
+
+#image img{
+    width: 80vh;
+    height: 45vh;
+    
+}
+
+#image a{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left:10em;
+}
+
+
+#gme{
+    margin-right: 20px;
+    box-shadow: 0px 5px 5px rgba(255, 255, 255, 0.5); 
+    padding: 20px;
+    place-items: center;
+    align-items: center;
+    
+}
+
+button{
+    border: none;
+}
+
+
+
+
+.connect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#2E313A;
+    height: 20vh;
+    left: 0px; 
+    width: 100%;
+}
+
+input{
+    border: 1px solid #FEFFFB;
+    background-color: #282b32;
+    padding: 5px;
+    top: 0px;
+    bottom: 0;
+    margin-bottom: 25px;
+}
+
+#eml button{
+    background-color: #282b32;
+    color: white;
+    padding:5px ;
+    border: 2px solid #FEFFFB;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #282b32;
+    background-image: linear-gradient rgba(40,43,50,25);
+    color: #FEFFFB;
+    width: 100%;
+    height: 20vh;
+    margin: 0;
+
+}
+
+#foot a{
+    color: #FEFFFB;
+}
+
+
+footer a{
+    color: #FEFFFB;
+}
+
+
+
+
+
+
+
